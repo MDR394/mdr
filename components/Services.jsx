@@ -37,7 +37,7 @@ const Services = () => {
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={web_design} className='mx-auto' width={100} height={100} alt='img' />
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-200'>Beautiful designs</h3>
+              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-200'>Website Designing</h3>
               <p className='text-balck dark:text-gray-400'>Creating elegant designs suited for your needs following core web design theory.</p>
               <h3 className='py-4 text-teal-600 dark:text-teal-500'>Design tool I use</h3>
               <p className='text-gray-800 py1 dark:text-gray-400'>PhotoShop</p>
