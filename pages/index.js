@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
-import { AiFillLinkedin } from 'react-icons/ai'
-import { FaGithubSquare, FaInstagramSquare } from 'react-icons/fa'
+import { ImLinkedin2 } from 'react-icons/im'
+import { SiFiverr } from 'react-icons/si'
+import { SiUpwork } from 'react-icons/si'
 import Image from 'next/image';
-import devet from '../public/dev-ed-wave.png';
+import devet from '../public/mdr_pic5.png';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Tabs from '../components/tabs';
@@ -27,8 +28,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gradient-to-b from-gray-900 to-teal-800'>
-        <section className='min-h-screen bg-img'>
+      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gradient-to-b from-gray-900 to-teal-900'>
+        <section className='min-h-screen'>
         <nav className='py-10 mb-12 flex justify-between'>
          <h1 className='text-xl font-burtons dark:text-gray-300'>MDR</h1>
          <ul className='flex justify-center'>
@@ -36,7 +37,9 @@ export default function Home() {
           <li><a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' onClick={handleDownload}>Resume</a></li>
          </ul>
         </nav>
-
+        <div className='relative mx-auto bg-gradient-to-t from-teal-600 to-teal-900 rounded-full w-80 h-80 mt-20 overflow-hidden md:w-96 md:h-96'>
+          <Image src={devet} width={500} height={500} alt='img' className='' />
+        </div>
         <div className='text-center p-12'>
           <h2 className='py-2 text-5xl text-teal-600 dark:text-teal-500 font-medium md:text-6xl font-burtons'>M Dawood Rafique</h2>
           <h3 className='text-2x py-2 md:text-3xl dark:text-gray-300'>Website Developer</h3>
@@ -44,21 +47,19 @@ export default function Home() {
             down below let's get cracking!
           </p>
         </div>
-        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-        <a href='www.linkedin.com/in/mdr394'><AiFillLinkedin /> </a>
-        <a href='https://www.linkedin.com/in/muhammad-dawood-rafique-61063b208/'><FaGithubSquare /> </a>
-        <a href='www.linkedin.com/in/mdr394'><FaInstagramSquare /></a>
+        <div className='text-5xl flex justify-center items-center gap-16 py-3 text-gray-600'>
+        <a href='https://www.fiverr.com/muhammaddawoo' className='text-8xl'><SiFiverr /> </a>
+        <a href='https://www.upwork.com/freelancers/muhammaddawood' className='text-5xl mt-2'><SiUpwork /></a>
+        <a href='https://www.linkedin.com/in/mdr394' className='text-4xl'><ImLinkedin2 /></a>
         </div>
-        <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:w-96 md:h-96'>
-          <Image src={devet} width={500} height={500} alt='img' />
-        </div>
+        
         </section>
 
         <Services />
 
         <section>
-        <h3 className="text-3xl py-2 dark:text-gray-200">Portfolio</h3>
-        <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>Since the begning of my journey as a fralance designer and developer. I've done remote work for <spam className='text-teal-500 dark:text-teal-500'>agencies</spam> consulted for <spam className='text-teal-500 dark:text-teal-500'>startups</spam> and collaborated with talanted people to create digital produts for both bussiness and consumer use.</p>
+        <h3 className="text-4xl py-1 mt-10 font-bold dark:text-teal-500">Portfolio</h3>
+        <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>Here is my portfolio from all the clients for whom I worked like <spam className='text-teal-500 dark:text-teal-500'>agencies</spam> and worked for <spam className='text-teal-500 dark:text-teal-500'>Organizations</spam> and <spam className='text-teal-500 dark:text-teal-500'>startups.</spam></p>
 
   
         </section>

@@ -1,10 +1,10 @@
 import Image from "next/image"
-import web1 from "../public/web1.png"; 
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png"; 
-import web4 from "../public/web4.png"; 
-import web5 from "../public/web5.png"; 
-import web6 from "../public/web6.png";
+import web1 from "../public/lifebahn.png"; 
+import web2 from "../public/siraas.png";
+import web3 from "../public/selfempoweredminds.png"; 
+import web4 from "../public/blitzeglanz.png"; 
+import web5 from "../public/losangelestattooshop.png"; 
+import web6 from "../public/musclefuelmeals.png";
 import Link from "next/link";
 
 const AllDataTab = () => {
@@ -12,10 +12,10 @@ const AllDataTab = () => {
     <div>
         <section>
       <div className="all grid lg:grid-cols-3 md:grid-cols-2 gap-5">
-        <div className="bg-slate-600">
-            <Link href={"/"}>
+        <div className="">
+            <Link href={"http://lifebahn.org/"}>
         <Image
-                className="rounded-lg object-cover"
+                className=""
                 width={"100%"}
                 height={"100%"}
                 src={web1}
@@ -23,16 +23,20 @@ const AllDataTab = () => {
               />
               </Link>
         </div>
-        <div className="bg-slate-600">
+        <div className="">
+        <Link href={"https://siraas.com/"}>
         <Image
+        
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 src={web2}
                 alt='img'
               />
+              </Link>
         </div>
-        <div className="bg-slate-600">
+        <div className="">
+        <Link href={"https://selfempoweredminds.com/"}>
         <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -40,8 +44,10 @@ const AllDataTab = () => {
                 src={web3}
                 alt='img'
               />
+              </Link>
         </div>
-        <div className="bg-slate-600">
+        <div className="">
+        <Link href={"https://blitzeglanz.de/"}>
         <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -49,8 +55,10 @@ const AllDataTab = () => {
                 src={web4}
                 alt='img'
               />
+              </Link>
         </div>
-        <div className="bg-slate-600">
+        <div className="">
+        <Link href={"https://losangelestattooshop.com/"}>
         <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -58,8 +66,10 @@ const AllDataTab = () => {
                 src={web5}
                 alt='img'
               />
+              </Link>
         </div>
-        <div className="bg-slate-600">
+        <div className="">
+        <Link href={"https://musclefuelmeals.com/"}>
         <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -67,6 +77,7 @@ const AllDataTab = () => {
                 src={web6}
                 alt='img'
               />
+              </Link>
         </div>
       </div>
       </section>
