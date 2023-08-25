@@ -9,6 +9,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import Services from '../components/Services';
 import TabsData from '../components/TabsData';
+import Footer from '../components/Footer';
 
 
 
@@ -28,7 +29,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gradient-to-b from-gray-900 to-teal-900'>
+      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gradient-to-b from-gray-900 to-teal-900 pb-12'>
         <section className='min-h-screen'>
         <nav className='py-10 mb-12 flex justify-between'>
          <h1 className='text-xl font-burtons dark:text-gray-300'>MDR</h1>
@@ -64,7 +65,9 @@ export default function Home() {
 
     
         <TabsData />
+       
       </main>
+      <Footer />
     </div>
   )
 }
