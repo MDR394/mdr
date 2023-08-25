@@ -7,8 +7,8 @@ import Image from 'next/image';
 import devet from '../public/mdr_pic5.png';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import Tabs from '../components/tabs';
 import Services from '../components/Services';
+import TabsData from '../components/TabsData';
 
 
 
@@ -19,7 +19,7 @@ export default function Home() {
    
     router.push('/MDR.pdf');
   };
-  const table_data = "Its my table_data"
+
   return (
     <div className={darkMode ? 'dark' : ""}>
       <Head>
@@ -57,14 +57,13 @@ export default function Home() {
 
         <Services />
 
-        <section>
+        <section className='mb-7'>
         <h3 className="text-4xl py-1 mt-10 font-bold dark:text-teal-500">Portfolio</h3>
         <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-300'>Here is my portfolio from all the clients for whom I worked like <spam className='text-teal-500 dark:text-teal-500'>agencies</spam> and worked for <spam className='text-teal-500 dark:text-teal-500'>Organizations</spam> and <spam className='text-teal-500 dark:text-teal-500'>startups.</spam></p>
-
-  
         </section>
 
-        <Tabs table_data={table_data}/>
+    
+        <TabsData />
       </main>
     </div>
   )
