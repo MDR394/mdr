@@ -10,8 +10,8 @@ const Tabs = () => {
             <section className=''>
               <div className='py-5'>
               <button className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md' onClick={() => setId("all")}>WordPress</button>
-                {/* <button className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' onClick={() => setId("wordpress")}>WordPress</button>
-                <button className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' onClick={() => setId("react")}>React</button> */}
+                <button className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' onClick={() => setId("wordpress")}>WordPress</button>
+                <button className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' onClick={() => setId("react")}>React</button>
               </div>
             </section>
             <div className="py-10">
