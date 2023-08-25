@@ -42,13 +42,13 @@ export default function Home() {
           <Image src={devet} width={500} height={500} alt='img' className='' />
         </div>
         <div className='text-center p-12'>
-          <h2 className='py-2 text-5xl text-teal-600 dark:text-teal-500 font-medium md:text-6xl font-burtons'>M Dawood Rafique</h2>
+          <h2 className='py-2 text-4xl text-teal-600 dark:text-teal-500 font-medium md:text-6xl font-burtons'>M Dawood Rafique</h2>
           <h3 className='text-2x py-2 md:text-3xl dark:text-gray-300'>Website Developer</h3>
           <p className='text-md leading-8 dark:text-gray-400 md:text-xl max-w-xl mx-auto  text-gray-600'>Frelancer providing a servises for  Wordpress, Web programing and design content needs. Join me
             down below let's get cracking!
           </p>
         </div>
-        <div className='text-5xl flex justify-center items-center gap-16 py-3 text-gray-600'>
+        <div className='text-5xl flex justify-center items-center gap-8 lg:gap-12 py-3 text-gray-600'>
         <a href='https://www.fiverr.com/muhammaddawoo' className='text-8xl'><SiFiverr /> </a>
         <a href='https://www.upwork.com/freelancers/muhammaddawood' className='text-5xl mt-2'><SiUpwork /></a>
         <a href='https://www.linkedin.com/in/mdr394' className='text-4xl'><ImLinkedin2 /></a>
