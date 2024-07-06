@@ -24,7 +24,7 @@ const AllDataTab = () => {
               </Link>
         </div>
         <div className="">
-        <Link href={"https://siraas.com/"}>
+        <Link href={"https://thrillx.io/"}>
         <Image
         
                 className="rounded-lg object-cover"
@@ -47,7 +47,7 @@ const AllDataTab = () => {
               </Link>
         </div>
         <div className="">
-        <Link href={"https://blitzeglanz.de/"}>
+        <Link href={"https://marsha-glauch.de/"}>
         <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
