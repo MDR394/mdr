@@ -33,3 +33,35 @@ a {
 .Tabs_section {
   display: none;
 }
+
+/* Custom Arrows */
+.custom-prev,
+.custom-next {
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Custom Pagination Dots */
+
+/* Move Pagination Dots Lower */
+.swiper-pagination {
+  position: relative !important;
+  bottom: 0px !important; /* Move pagination down */
+  text-align: center;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff !important; /* Default dot color */
+  width: 12px;
+  height: 12px;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff !important; /* Active dot color */
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+}
