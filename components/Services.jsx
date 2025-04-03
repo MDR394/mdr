@@ -21,8 +21,8 @@ const Services = () => {
           consumers.
         </p>
         <p className="text-md mt-2 text-gray-800 dark:text-gray-300">
-          I specialize in **WordPress development, Web Design, Single Page
-          Applications (SPAs), and Cloud & DevOps solutions**.
+          I specialize in WordPress development, Web Design, Single Page
+          Applications (SPAs), and Cloud & DevOps solutions.
         </p>
       </div>
 
