@@ -46,12 +46,12 @@ const AllDataTab = () => {
         spaceBetween={20}
         loop={true}
         autoplay={{
-          delay: 3000,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         speed={2000}
         breakpoints={{
-          1024: { slidesPerView: 3 },
+          1024: { slidesPerView: 2 },
           768: { slidesPerView: 2 },
           0: { slidesPerView: 1 },
         }}

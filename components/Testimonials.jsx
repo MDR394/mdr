@@ -40,7 +40,7 @@ const Testimonials = () => {
         }}
         speed={2000} // Slide transition speed (2 seconds for smooth effect)
         breakpoints={{
-          1024: { slidesPerView: 3 }, // Desktop
+          1024: { slidesPerView: 2 }, // Desktop
           768: { slidesPerView: 2 }, // Tablets
           0: { slidesPerView: 1 }, // Mobile
         }}
