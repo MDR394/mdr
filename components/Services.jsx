@@ -21,8 +21,8 @@ const Services = () => {
           consumers.
         </p>
         <p className="text-md mt-2 text-gray-800 dark:text-gray-300">
-          I specialize in **WordPress development, Web Design, Single Page
-          Applications (SPAs), and Cloud & DevOps solutions**.
+          I specialize in WordPress development, Web Design, Single Page
+          Applications (SPAs), and Cloud & DevOps solutions.
         </p>
       </div>
 
@@ -110,8 +110,8 @@ const Services = () => {
             DevOps & Cloud Solutions
           </h3>
           <p className="text-gray-800 dark:text-gray-400">
-            Optimizing deployments with **best coding practices, automation, and
-            cloud infrastructure management**.
+            Optimizing deployments with best coding practices, automation, and
+            cloud infrastructure management.
           </p>
           <h4 className="py-4 text-teal-600 dark:text-teal-400">
             Services I Provide:
