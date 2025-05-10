@@ -62,7 +62,7 @@ export default function Home() {
               M Dawood Rafique
             </h2>
             <h3 className="text-2x py-2 md:text-2xl font-mono font-bold dark:text-gray-300">
-              Website Developer | DevOps Practitioner
+            Helping bring digital products to life  
             </h3>
             <p className="text-md leading-8 dark:text-gray-400 md:text-l max-w-xl mx-auto  text-gray-600">
               Specializing in WordPress, web programming, and content design,
